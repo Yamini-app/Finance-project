@@ -1,0 +1,29 @@
+.my-card{
+ box-shadow: var(--shadow);
+ margin: 1 rem;
+ border-radius: 0.5rem;
+ min-width: 31%;
+
+}
+
+
+.ant-card-head-title{
+    margin: 0;
+    font-weight: 600;
+}
+
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.my-card p{
+    margin: 1;
+
+}
+
+.button-spend{
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+.wrapper
+.charts-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+
+}
+.charts-wrapper{
+    justify-content: space-between;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 20px;
+
+
+    .chart-1{
+        width: 60%;
+        box-shadow: var( --chart-shadow);
+        border-radius: 0.5rem;
+        min-width: 420px;
+        padding: 24px;
+        height: 495px !important;
+        canvas{
+            height: 400px !important;
+        }
+    }
+    .chart-2{
+        box-shadow:  var( --chart-shadow);
+        border-radius: 0.5rem;
+        padding: 24px;
+        width: 30%;
+        canvas{
+        width: 388px !important;
+        height: 450px !important;
+        }
+        h2{
+            margin: 0;
+        }
+    }
+}
